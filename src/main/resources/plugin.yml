@@ -1,6 +1,0 @@
-name: zz_API
-version: '1.0'
-main: com.zz.zz_API.Zz_API
-api-version: '1.21'
-load: STARTUP
-authors: [ Yuheng Zhan ]

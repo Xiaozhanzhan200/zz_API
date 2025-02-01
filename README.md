@@ -3,7 +3,7 @@ A plugin API for Minecraft, used for some of the plugins developed by me.
 ## use this API
 ### gradle
 1. Add it in your root build.gradle at the end of repositories:
-```
+```groovy
 	dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {

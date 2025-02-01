@@ -1,7 +1,44 @@
 # zz_API
 A plugin API for Minecraft, used for some of the plugins developed by me.
-## zz_sell
-**Example**:
+## use this API
+### gradle
+1. Add it in your root build.gradle at the end of repositories:
+```
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+2. Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.Xiaozhanzhan200:zz_API:1.0'
+	}
+```
+### maven
+1. Add the JitPack repository to your build file
+```xml
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+2. Add the dependency
+```xml
+	<dependency>
+	    <groupId>com.github.Xiaozhanzhan200</groupId>
+	    <artifactId>zz_API</artifactId>
+	    <version>1.0</version>
+	</dependency>
+```
+## Write in code
+### zz_sell
+**Example:**
 ```java
 package com.you.plugin;
 
